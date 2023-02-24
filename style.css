@@ -42,6 +42,7 @@ h1{
 }
 .eye{
     position: absolute;
+    cursor: pointer;
 }
 #hide1{
     display: none;
