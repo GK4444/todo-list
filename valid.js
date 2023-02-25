@@ -4,7 +4,7 @@ function validate(){
     console.log("PasSWord:",password.value)
     if (password.value==='gk44' && username.value==='gk'){
         // alert('Login Successfull');
-        window.location.replace('gk_kanban.html')
+        window.location.replace('gk_kanban_index.html')
         return false;
     }
     else{
