@@ -3,13 +3,14 @@
         <title>TITLE</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="valid.js"></script>
     </head>
     <body>
     <div class="form-box">
         <h1>Login Here</h1>
         <div class="input-box">
             <i class="fa fa-envelope-o"></i>
-            <input type="username" placeholder="User Name">
+            <input type="username" placeholder="User Name" id="username">
         </div>
         <div class="input-box">
             <i class="fa fa-key"></i>
@@ -19,7 +20,7 @@
                 <i id="hide2" class="fa fa-eye-slash"></i>
             </span>
         </div>
-    <button type="button" class="login-btn">LOGIN</button>
+    <button type="button" class="login-btn" onclick="validate()">LOGIN</button>
     </div>    
 
         <script>
